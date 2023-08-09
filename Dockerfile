@@ -31,5 +31,5 @@ RUN conda run -n lmi pip install --editable .
 
 # Run commands specified in "run.sh" to get started
 
-#ENTRYPOINT [ "/bin/bash", "-l", "-c" ]
-ENTRYPOINT [ "/bin/bash", "/sisap23-run.sh"]
+ENTRYPOINT [ "/bin/bash", "-l", "-c" ]
+#ENTRYPOINT [ "/bin/bash", "/sisap23-run.sh"]
